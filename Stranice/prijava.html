@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aretuza</title>
+    <link rel="icon" href="../slike/android-chrome-512x512.png" type="image/x-icon">
+</head>
+
+<body style="background-color:coral">
+    <nav>
+        <tr>
+
+            <td ><a href="../sajt.html">O skoli</a></td>
+            <td ><a href="nastava.html">Nastava</a></td>
+            <td ><a href="ucitelji.html">Ucitelji</a></td>
+            <td ><a href="cenovnik.html">Cenovnik</a></td>
+            <td ><a href="prijava.html">Prijava</a></td>
+
+        </tr>
+    </nav>
+    <center>
+        <h1> <b>Prijava</b> </h1>
+    <form style="margin-top: 35px;" action="uspesnaPrijava.html"  >
+        <p>Ime</p>
+        <input type="text" required placeholder="Ime">
+
+        <p>Prezime</p>
+        <input type="text" required placeholder="Prezime">
+        <p>Biografija:</p>
+        <textarea cols="25" rows="15" maxlength="200"></textarea>
+
+        <p>Datum rodjenja</p>
+        <input type="date" required>
+        <p>Rasa:</p>
+        <input type="radio" name="pol">Covek
+        <input type="radio" name="pol">Vilenjak
+        <input type="radio" name="pol">Polu Vilenjak
+        <br><br><br>
+        <select>
+            <option selected>Nivo skolovanja</option>
+            <option>Osnovni</option>
+            <option>Napredni</option>
+            <option>Specijalizacija</option>
+        </select>
+        <br><br><br>
+        <input type="submit" value="Gotovo">
+        <input type="reset" value="Ponovo">
+    </form>   
+    </center>
+
+</body>
+
+</html>
